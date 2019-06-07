@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/linearlayoutbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/binfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus-Information"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/notify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set-Notification"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/blocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Bus-Location"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/savailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seat-Availability"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Any Queries?"
+            android:textColor="@color/black"
+            android:clickable="true"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
